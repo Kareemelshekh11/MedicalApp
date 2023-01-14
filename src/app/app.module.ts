@@ -1,20 +1,61 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SliderComponent } from './slider/slider.component';
+import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { DentictsComponent } from './denticts/denticts.component';
+import { DoctorsComponent } from './doctors/doctors.component';
+import { DoctorDetailsComponent } from './doctor-details/doctor-details.component';
+import { BookingComponent } from './booking/booking.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { BlogComponent } from './blog/blog.component';
+import { BlogDetailsComponent } from './blog-details/blog-details.component';
+import { ContactComponent } from './contact/contact.component';
+import { ServiceDetailsComponent } from './service-details/service-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    SliderComponent,
+    HomeComponent,
+    AboutComponent,
+    ServicesComponent,
+    DentictsComponent,
+    DoctorsComponent,
+    DoctorDetailsComponent,
+    BookingComponent,
+    PricingComponent,
+    TestimonialsComponent,
+    PortfolioComponent,
+    PrivacyComponent,
+    LoginComponent,
+    RegisterComponent,
+    NotfoundComponent,
+    BlogComponent,
+    BlogDetailsComponent,
+    ContactComponent,
+    ServiceDetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

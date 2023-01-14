@@ -26,6 +26,11 @@ export class NavbarComponent implements OnInit {
     $("#navbtn3").click(function(){
       $(".dropdown-menu3").fadeToggle();
     });
+
+    $("#navbtn4").click(function(){
+      $(".dropdown-menu4").fadeToggle();
+    });
+ 
  
   }
 
