@@ -25,6 +25,8 @@ import { BlogComponent } from './blog/blog.component';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceDetailsComponent } from './service-details/service-details.component';
+import { CallUsComponent } from './Components/call-us/call-us.component';
+import { AboutPartComponent } from './Components/about-part/about-part.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,9 @@ import { ServiceDetailsComponent } from './service-details/service-details.compo
     BlogComponent,
     BlogDetailsComponent,
     ContactComponent,
-    ServiceDetailsComponent
+    ServiceDetailsComponent,
+    CallUsComponent,
+    AboutPartComponent
   ],
   imports: [
     BrowserModule,

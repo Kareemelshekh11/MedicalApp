@@ -27,6 +27,14 @@ p {
     padding-bottom: 75px;
 }
 
+.pb-100{
+    padding-bottom: 100px;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #000;
     font-family: 'Poppins' , sans-serif;
@@ -48,6 +56,7 @@ p {
     &:hover{
         background-color: #005879;
         transition: all 0.5s;
+        color: #fff !important;
     }
 }
 
@@ -81,4 +90,15 @@ img {
         left: 20px;
         top: 45%;
     }
+}
+
+.bg-eef9ff {
+    background-color: #eef9ff;
+}
+
+@media only screen and (max-width: 768px){
+body, p {
+    font-size: 14px;
+}
+
 }

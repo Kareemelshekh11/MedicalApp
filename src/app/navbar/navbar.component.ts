@@ -15,22 +15,18 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    $("#navbtn1").click(function(){
-      $(".dropdown-menu").fadeToggle();
-    });
+    
+    window.onscroll = function() {myFunction()};
 
-    $("#navbtn2").click(function(){
-      $(".dropdown-menu2").fadeToggle();
-    });
-
-    $("#navbtn3").click(function(){
-      $(".dropdown-menu3").fadeToggle();
-    });
-
-    $("#navbtn4").click(function(){
-      $(".dropdown-menu4").fadeToggle();
-    });
- 
+    const navbar = document.querySelector(".navbar-area");
+    
+    function myFunction() {
+      if (window.pageYOffset>=20) {
+        navbar?.classList.add("sticky")
+      } else {
+        navbar?.classList.remove("sticky");
+      }
+    }
  
   }
 

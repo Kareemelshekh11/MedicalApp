@@ -45,7 +45,7 @@
 
             }
 
-            .dropdown-menu , .dropdown-menu2 , .dropdown-menu3 , .dropdown-menu4{
+            .dropdown-menu{
 
                 left: 0;
                 top: 84px;
@@ -62,7 +62,6 @@
                 font-size: 1rem;
                 margin: 0;
                 min-width: 10rem;
-                display: none;
                 z-index: 1000;
                 position: absolute;
 
@@ -129,6 +128,21 @@
 }
 
 
+//sticky navbar css
+
+
+.sticky {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed!important;
+    background-color: #fff!important;
+    box-shadow: 0 2px 28px #00000017;
+    animation: .5s ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+
 
 .dropdown-toggle::after {
 
@@ -156,7 +170,7 @@
             padding: 17px 0px !important;
         }
 
-        .dropdown-menu , .dropdown-menu2 , .dropdown-menu3 , .dropdown-menu4 {
+        .dropdown-menu{
             width: 100% !important;
             padding: 18px !important;
             top: 0 !important;
@@ -181,3 +195,14 @@
     
 }
 
+
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}	
+/* ============ desktop view .end// ============ */
