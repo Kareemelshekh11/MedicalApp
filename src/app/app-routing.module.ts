@@ -7,17 +7,17 @@ import { BookingComponent } from './booking/booking.component';
 import { ContactComponent } from './contact/contact.component';
 import { DentictsComponent } from './denticts/denticts.component';
 import { DoctorDetailsComponent } from './doctor-details/doctor-details.component';
-import { DoctorsComponent } from './doctors/doctors.component';
+import { FaqComponent } from './faq/faq.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NotfoundComponent } from './notfound/notfound.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { RegisterComponent } from './register/register.component';
 import { ServiceDetailsComponent } from './service-details/service-details.component';
 import { ServicesComponent } from './services/services.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { VaccineComponent } from './vaccine/vaccine.component';
 
 const routes: Routes = [
   {path:'', redirectTo:"home", pathMatch:"full"},
@@ -26,18 +26,18 @@ const routes: Routes = [
   {path:'services' , component:ServicesComponent},
   {path:'service-details' , component:ServiceDetailsComponent},
   {path:'dentict' , component:DentictsComponent},
-  {path:'doctor' , component:DoctorsComponent},
   {path:'doctor-details' , component:DoctorDetailsComponent},
   {path:'booking' , component:BookingComponent},
   {path:'pricing' , component:PricingComponent},
   {path:'testimonials' , component:TestimonialsComponent},
-  {path:'portfolio' , component:PortfolioComponent},
+  {path:'vaccine' , component:VaccineComponent},
   {path:'privacy' , component:PrivacyComponent},
   {path:'login' , component:LoginComponent},
   {path:'register' , component:RegisterComponent},
   {path:'blog' , component:BlogComponent},
   {path:'blog-details' , component:BlogDetailsComponent},
   {path:'contact' , component:ContactComponent},
+  {path:'faq' ,component:FaqComponent},
   {path:'**' , component:NotfoundComponent},
   {path:'notfound' , component:NotfoundComponent}
 ];

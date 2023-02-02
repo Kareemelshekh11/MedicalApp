@@ -1,0 +1,67 @@
+@import '../../../assets/vars.scss';
+
+.single-review-item{
+    background-color: #fff;
+    transition: all 0.5s;
+    padding: 60px 30px 30px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 35px;
+
+    .icon{
+        top: -35px;
+        left: 30px;
+        z-index: 1;
+        position: absolute;
+
+        i{
+            box-shadow: #11111a0f 0 0 16px;
+            background-color: #fff;
+            transition: all 0.5s;
+            color: $main_color;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 70px;
+            font-size: 40px;
+            height: 70px;
+            width: 70px;
+        }
+    }
+
+    p{
+        transition: all 0.5s;
+        font-size: 17px;
+    }
+
+    .review-info{
+        margin-top: 25px;
+        position: relative;
+        padding-left: 75px;
+
+        img{
+            transform: translateY(-50%);
+            display: inline-block;
+            border-radius: 50%;
+            position: absolute;
+            height: 58px;
+            width: 58px;
+            top: 50%;
+            left: 0;
+        }
+
+        h3{
+            margin-bottom: 5px;
+            transition: all 0.5s;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        span{
+            font-size: 15px;
+            color: $paragraph-color;
+            transition: all 0.5s;
+        }
+    }
+}
