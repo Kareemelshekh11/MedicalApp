@@ -31,6 +31,7 @@ import { VaccineComponent } from './vaccine/vaccine.component';
 import { DentictsPartComponent } from './Components/denticts-part/denticts-part.component';
 import { TestimonialPartComponent } from './Components/testimonial-part/testimonial-part.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,7 +68,11 @@ import { TestimonialPartComponent } from './Components/testimonial-part/testimon
     BrowserAnimationsModule,
     CarouselModule
   ],
-  providers: [],
+  providers: [
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

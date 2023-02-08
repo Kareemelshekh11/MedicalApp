@@ -30,7 +30,7 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-   
+    "strictDomEventTypes": false,
     "strictNullChecks": false,
     "strictTemplates": true
   }
