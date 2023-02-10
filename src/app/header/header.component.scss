@@ -35,6 +35,11 @@
         list-style-type: none;
 
         li{
+
+            &:last-child{
+                margin-right: 0;
+            }
+
             margin-right: 15px;
 
             a{
@@ -71,7 +76,7 @@
                 cursor: pointer;
                 color: #fff;
                 background-color: #ffffff14;
-                padding: 2px 8px;
+                padding: 2px 8px !important;
 
                 option{
                     color: #000;
@@ -140,17 +145,60 @@
 
         .top-header-information{
             text-align: center !important;
+
+            li{
+
+                padding-left: 9px;
+                font-size: 13px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+
+                &:first-child{
+                    margin-left: 0 !important;
+                }
+
+                i{
+                    top: 1px !important;
+                    font-size: 15px !important;
+                }
+            }
         }
 
 
         .top-header-optional{
+            margin-top: 5px;
             justify-content: center;
-            margin-top: 15px;
+
+            li{
+                margin-left: 5px;
+                margin-right: 5px;
+
+                &:first-child{
+                    margin-right: 0;
+                }
+
+                a{
+                    width: 30px;
+                    height: 30px;
+                }
+
+                
+
+                select{
+                    height: 30px !important;
+                    font-size: 14px !important;
+                    padding: 2px 22px 2px 8px !important;
+                }
+                    
+                
+            }
         }
     }
 
     .middle-header-area{
-
+        padding-top: 12px;
+        padding-bottom: 12px;
 
         .middle-header{
             display: none;
@@ -158,6 +206,32 @@
 
         .middle-header-content{
             text-align: center;
+
+            li{
+                font-size: 13px;
+                padding-left: 0;
+                text-align: center;
+                margin-left: 8px;
+                margin-right: 8px;
+
+                &:first-child{
+                    margin-left: 0;
+                }
+
+                i{
+                    top: 0;
+                    display: block;
+                    font-size: 25px;
+                    position: relative;
+                    margin-bottom: 5px;
+                    transform: translateY(0);
+                }
+
+                span{
+                    margin-top: 4px;
+                    font-size: 14px;
+                }
+            }
         }
     }
 

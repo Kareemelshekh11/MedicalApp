@@ -157,6 +157,14 @@
     border: none !important;
 }
 
+.navbar-toggler {
+    border: none !important;
+
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
 @media screen and (max-width:768px){
     .navbar-area{
         padding-top: 15px;
@@ -168,6 +176,7 @@
 
         .nav-link{
             padding: 17px 0px !important;
+            font-size: 15px !important;
         }
 
         .dropdown-menu{
@@ -186,6 +195,23 @@
                 
                 margin-top: 17px;
                 
+            }
+
+            .others-option{
+                margin-top: 15px;
+                margin-left: 0;
+
+                .option-item{
+                    margin-left: 20px;
+                    &:first-child{
+                        margin-left: 0 !important;
+                    }
+
+                    .default-btn{
+                        padding: 12px 30px;
+                        font-size: 14px;
+                    }
+                }
             }
         }
 
