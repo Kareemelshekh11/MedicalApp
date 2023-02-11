@@ -30,6 +30,7 @@ import { FaqComponent } from './faq/faq.component';
 import { VaccineComponent } from './vaccine/vaccine.component';
 import { DentictsPartComponent } from './Components/denticts-part/denticts-part.component';
 import { TestimonialPartComponent } from './Components/testimonial-part/testimonial-part.component';
+import { ScrollComponent } from './Components/scroll/scroll.component';
 
 
 @NgModule({
@@ -60,7 +61,8 @@ import { TestimonialPartComponent } from './Components/testimonial-part/testimon
     FaqComponent,
     VaccineComponent,
     DentictsPartComponent,
-    TestimonialPartComponent
+    TestimonialPartComponent,
+    ScrollComponent
   ],
   imports: [
     BrowserModule,
