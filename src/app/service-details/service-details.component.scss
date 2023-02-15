@@ -344,3 +344,90 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 768px){
+    
+    .service-details-area{
+        .service-details-image{
+            img{
+                border-radius: 5px;
+            }
+       
+        }
+
+        .service-details-content{
+           margin-top: 20px;
+
+            h3{
+              font-size: 20px;
+            }
+        }
+
+        .service-details-overview-content p span {
+            font-size: 14px;
+        }
+
+
+        .widget-area{
+            padding-left: 0;
+            margin-top: 25px;
+
+            .widget{
+                margin-bottom: 20px;
+                padding-bottom: 20px;                
+            }
+
+            .widget-title{
+                margin-bottom: 18px !important;
+                font-size: 18px !important;
+            }
+
+            .widget_search{
+
+                form{
+                    .search-field{
+                        height: 50px;
+                        padding: 8px 12px;
+                    }
+
+                    button{
+                        top: 5px;
+                        right: 5px;
+                        width: 38px;
+                        height: 38px;
+                        font-size: 18px;                        
+                    }
+                }
+            }
+
+            .widget_inba_posts_thumb{
+                .item{
+                    .thumb{
+                        margin-right: 15px;
+                        height: 80px;
+                        width: 80px;                        
+                    }
+
+                    .info{
+                        span{
+                            font-size: 13px;
+                        }
+
+                        .title{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .tagcloud a {
+                padding: 7px 15px !important;
+                font-size: 13px !important;
+            }
+        }
+
+    }
+
+    
+}

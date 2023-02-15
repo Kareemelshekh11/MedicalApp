@@ -7,7 +7,6 @@ import { BookingComponent } from './booking/booking.component';
 import { ContactComponent } from './contact/contact.component';
 import { DentictsComponent } from './denticts/denticts.component';
 import { DoctorDetailsComponent } from './doctor-details/doctor-details.component';
-import { FaqComponent } from './faq/faq.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NotfoundComponent } from './notfound/notfound.component';
@@ -37,7 +36,6 @@ const routes: Routes = [
   {path:'blog' , component:BlogComponent},
   {path:'blog-details' , component:BlogDetailsComponent},
   {path:'contact' , component:ContactComponent},
-  {path:'faq' ,component:FaqComponent},
   {path:'**' , component:NotfoundComponent},
   {path:'notfound' , component:NotfoundComponent}
 ];

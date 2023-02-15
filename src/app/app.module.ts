@@ -26,7 +26,6 @@ import { ServiceDetailsComponent } from './service-details/service-details.compo
 import { CallUsComponent } from './Components/call-us/call-us.component';
 import { AboutPartComponent } from './Components/about-part/about-part.component';
 import { FooterComponent } from './footer/footer.component';
-import { FaqComponent } from './faq/faq.component';
 import { VaccineComponent } from './vaccine/vaccine.component';
 import { DentictsPartComponent } from './Components/denticts-part/denticts-part.component';
 import { TestimonialPartComponent } from './Components/testimonial-part/testimonial-part.component';
@@ -58,7 +57,6 @@ import { ScrollComponent } from './Components/scroll/scroll.component';
     CallUsComponent,
     AboutPartComponent,
     FooterComponent,
-    FaqComponent,
     VaccineComponent,
     DentictsPartComponent,
     TestimonialPartComponent,
